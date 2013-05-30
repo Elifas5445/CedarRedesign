@@ -1,1 +1,0 @@
-http://www.snook.ca/archives/javascript/simplest-jquery-slideshow
