@@ -1,0 +1,453 @@
+html {font-family:“Gil"Segoe UI","Segoe UI Web Regular","Segoe UI Symbol","Helvetica Neue","BBAlpha Sans","S60 Sans",Arial,sans-serif;font-size: 100%;line-height: 1.21em;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+/*other font “Gill Sans”,Calibri,“Trebuchet MS”,sans-serif;*/
+html>body {font-size: 18px;}
+
+h1,
+h2 {
+    font-size: 2.25em; /* 36 / 16 */ /* COPIED FROM H2, H1 SHOULD BE DIFF CALCS */
+	line-height: 1em; /* original lh was 48 / 36 */
+	margin-bottom: .667em; /* 24 / 36 */
+}
+
+h3 {
+    font-size: 1.5em; /* 24 / 16 */
+	line-height: 1em; /* original lh was 24 / 24 */
+	margin-bottom: 1em; /* 24 / 24 */
+}
+
+p {
+    font-size: 1em; /* 16 / 16 */
+	line-height: 1.5em; /* 24 / 16 */
+	margin-bottom: 1.5em; /* 24 / 16 */
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#header{
+	background-image: url(http://www.milesfrankmd.com/images/blue_ridge_mountains_2.jpg);
+	background-size: 100% 100%;
+}
+#header-bar {
+	padding: 0;
+}
+
+#headerlogo {
+	width: 100%;
+	height: 75px;
+	background-color: gray;
+}
+
+#header-brand {
+	color: white;
+}
+
+#cta p {
+	color: lightYellow;
+}
+
+#header-number {
+	background-color: rgba(255,255,255,0);
+	color: white;
+	font-size: 130%;
+	margin-right: 8px;
+	text-decoration: none;
+}
+
+#header-book {
+	background-color: #f38400;
+	border: 2px solid black;
+	border-radius: 8px;
+	box-shadow: -2px 2px 4px black;
+	color: white;
+	display: inline-block;
+	font-size: 130%;
+	margin-left: 4px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#header-book:hover {
+	background-color: #f8b21f;
+	box-shadow: -1px 1px 2px black;
+	font-weight: bold;
+}
+
+#header-bar {
+background-image: -ms-linear-gradient(top, #19B2FF 0%, #FFFFF3 100%);
+background-image: -moz-linear-gradient(top, #19B2FF 0%, #FFFFF3 100%);
+background-image: -o-linear-gradient(top, #19B2FF 0%, #FFFFF3 100%);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #19B2FF), color-stop(1, #FFFFF3));
+background-image: -webkit-linear-gradient(top, #19B2FF 0%, #FFFFF3 100%);
+background-image: linear-gradient(to bottom, #19B2FF 0%, #FFFFF3 100%);
+}
+
+#top-nav ul {
+	margin: 0;
+}
+
+#top-nav li {
+	background-color: tan;
+	border: solid black 1px;
+	box-shadow: 1px 1px 12px rgb(31, 31, 31) inset;
+	display: inline-block;
+	font-size: 110%;
+	margin: 0;
+
+}
+
+#top-nav li:hover {
+	background-color: #355E3B;
+	box-shadow: 1px 1px 12px rgb(31, 31, 31) inset;
+}
+
+#top-nav li:hover a {
+	color: black;
+}
+
+#top-nav li:active {
+	background-color: black;
+}
+
+#top-nav li a {
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+}
+		
+#top-nav .directions {
+	display: none;
+}
+
+#main-image img {
+	width: 100%;
+	height: 400px;
+}
+
+#specials-box {
+	border: dashed darkGray 4px;
+	margin: 4px;
+	display: block;
+}
+
+#main-content-container {
+	background-color: #FFFFF3;
+}
+
+#social-media a {
+	display: inline-block;
+}
+
+#review-sites img {
+	float: left;
+}
+
+#details-content {
+	background-color: #FFF4F0;
+}
+
+.active-room {
+	color: red;
+}
+
+#cottage-headers {
+	text-align: center;
+}
+
+/* GRIDICULOUS */
+/* =Normalize.css v2.1.0 by Nicolas Gallagher - http://necolas.github.com/normalize.css/
+-------------------------------------------------------------- */
+/*
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
+	display:block
+}
+*/
+audio,canvas,video {
+	display:inline-block
+}
+
+audio:not([controls]) {
+	display:none;
+	height:0
+}
+
+[hidden] {
+	display:none
+}
+
+body{margin:0}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:0.67em 0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:bold}
+dfn{font-style:italic}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace, serif;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-0.5em}
+sub{bottom:-0.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+
+/* =Clearfix by Nicolas Gallagher
+-------------------------------------------------------------- */
+.row:before,.row:after,.clearfix:before,.clearfix:after{content:'';display:table}
+.row:after,.clearfix:after{clear:both}
+.row,.clearfix{zoom:1}
+
+/* =Gridiculous
+-------------------------------------------------------------- */
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
+body{font-size:100%;line-height:1.6875}
+.grid{margin:0 auto;max-width:1400px;width:100%}
+img{max-width:100%;height:auto;display:block;margin-left:auto;margin-right:auto}
+.wfull{width:100%;max-width:100%}
+.w320{max-width:320px}
+.w640{max-width:640px}
+.w960{max-width:960px}
+.row{width:100%;/*margin-bottom:20px*/}
+.row .row{width:auto;margin:0 -20px}
+.c1{width:8.33%}
+.c2{width:16.66%}
+.c3{width:25%}
+.c4{width:33.33%}
+.c5{width:41.66%}
+.c6{width:50%}
+.c7{width:58.33%}
+.c8{width:66.66%}
+.c9{width:75%}
+.c10{width:83.33%}
+.c11{width:91.66%}
+.c12{width:100%}
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12{min-height:1px;float:left;padding-left:20px;padding-right:20px;position:relative}
+.s1{margin-left:8.33%}
+.s2{margin-left:16.66%}
+.s3{margin-left:25%}
+.s4{margin-left:33.33%}
+.s5{margin-left:41.66%}
+.s6{margin-left:50%}
+.s7{margin-left:58.33%}
+.s8{margin-left:66.66%}
+.s9{margin-left:75%}
+.s10{margin-left:83.33%}
+.s11{margin-left:91.66%}
+.end{float:right!important}
+
+/* =Media query for 960 Screens - sets nested grids to 100%
+-------------------------------------------------------------- */
+@media only screen and (max-width:960px){
+.row .row .c1,.row .row .c2,.row .row .c3,.row .row .c4,.row .row .c5,.row .row .c6,.row .row .c7,.row .row .c8,.row .row .c9,.row .row .c10,.row .row .c11,.row .row .c12{width:100%;margin-bottom:20px}
+.row .row > div:last-child{margin-bottom:0 !important}
+}
+
+/* =Media query for iPad and tablets
+-------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 768px), only screen and (max-device-width: 768px) and (orientation:portrait){
+body{font-size:90%}
+.row{margin-bottom:0!important}
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12{width:100%;margin-right:0;margin-left:0;margin-bottom:20px}
+}
+
+/* =Media query for phones */
+@media only screen and (min-device-width : 320px) and (max-device-width : 641px) {
+	#top-nav .directions {
+		display: block;
+	}
+	
+	#top-nav li {
+		display: block;
+		width: 30%;
+	}
+	#top-nav li a {
+		display: block;
+		width: 30%;
+	}
+}
+/* =Media query for iPhone
+-------------------------------------------------------------- 
+@media handheld, only screen and (max-width: 480px) {
+}
+
+/* =Media query for iPhone portrait
+-------------------------------------------------------------- 
+@media handheld, only screen and (max-width: 320px) {
+}*/
+
+/* =Media query for large Screens - makes sure menu is displayed correctly
+-------------------------------------------------------------- */
+
+@media only screen and (min-width:961px){
+}
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	}
+	
+}
+
+/*	FOOTER ============================================================================= */
+		
+#footer-container {
+	clear: both;
+	display: block;
+	width: 100%;	
+	border-top: 1px solid #000;
+}
+		
+.footer-content {
+	clear: both;
+	width: 81%;
+	margin: 0 auto;
+	padding: 1em 0;
+	position: relative;
+}
+
+#social-buttons {
+	text-align: center;
+}
+
+/*	SLIDES =============================================================================== */
+		
+.rslides-container {
+	position: relative;
+	float: left;
+	/*width: 100%;*/
+	width: 250px;
+}
+		
+.rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+/*	SLIDES IMAGES ======================================================================== */
+
+.rslides li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.rslides img {
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
+	position: relative;
+}
+
+/* 	SLIDES NAVIGATION =================================================================== */
+
+.large-btns_nav {
+  z-index: 3;
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  opacity: 0.2;
+  text-indent: -9999px;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: #000 url("themes.gif") no-repeat left 50%;
+  width: 38px;
+}
+
+.large-btns_nav:hover {
+  opacity: 0.5;
+}
+  
+.large-btns_nav:active {
+  opacity: 0.7;
+}
+
+.large-btns_nav.next {
+  left: auto;
+  background-position: right 50%;
+  right: 0;
+}
+
+.large-btns_nav:focus {
+  outline: none;
+}
+
+.large-btns_tabs {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.large-btns_tabs li {
+  display: inline;
+  float: none;
+  _float: left;
+  *float: left;
+  margin-right: 5px;
+}
+
+.large-btns_tabs a {
+  text-indent: -9999px;
+  overflow: hidden;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background: #ccc;
+  background: rgba(0,0,0, .2);
+  display: inline-block;
+  _display: block;
+  *display: block;
+  -webkit-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+  -moz-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+  box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+  width: 9px;
+  height: 9px;
+}
+
+.large-btns_here a {
+  background: #222;
+  background: rgba(0,0,0, .8);
+}

@@ -1,0 +1,16 @@
+9 rooms
+2 convertible to suite
+1 suite
+
+attributes
+price
+beds
+bathroom
+floor
+
+
+About subpages
+Biltmore
+Breakfast
+Asheville
+Directions?
